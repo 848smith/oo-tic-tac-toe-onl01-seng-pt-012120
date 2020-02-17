@@ -99,7 +99,7 @@ class TicTacToe
   end
   
   def play
-    if over? == false
+    while over? == false
       turn
     elsif won?
       "YOU WON!"
