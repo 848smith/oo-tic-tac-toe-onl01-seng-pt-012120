@@ -34,7 +34,6 @@ class TicTacToe
     input = gets.strip
     index = input_to_index(input)
     token = current_player
-    
     if valid_move?(index)
       move(index, token)
       display_board
@@ -43,7 +42,9 @@ class TicTacToe
     end
   end
   
-  
+  def turn_count
+    
+  end
 end
 
 
