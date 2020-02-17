@@ -101,7 +101,11 @@ class TicTacToe
   def play
     if over? == false
       turn
-    elsif 
+    elsif won?
+      "YOU WON!"
+    elsif draw?
+      "Congrats both of you!"
+    end
   end
 end
 
