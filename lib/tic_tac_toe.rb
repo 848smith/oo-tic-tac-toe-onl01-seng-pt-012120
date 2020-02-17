@@ -104,7 +104,7 @@ class TicTacToe
     end
     if won?
       "YOU WON!"
-    else draw?
+    elsif draw?
       "Cat's Game!"
     end
   end
