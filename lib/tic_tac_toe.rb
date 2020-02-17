@@ -53,6 +53,11 @@ class TicTacToe
   end
   
   def current_player
+    if current_player
+      "X"
+    else
+      "O"
+  end
 end
 
 
