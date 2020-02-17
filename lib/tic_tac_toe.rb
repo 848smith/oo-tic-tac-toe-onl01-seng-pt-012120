@@ -105,7 +105,7 @@ class TicTacToe
     if won?
       "YOU WON!"
     else draw?
-      "Congrats both of you!"
+      "Cat's Game!"
     end
   end
 end
