@@ -57,11 +57,10 @@ class TicTacToe
       "X"
     else
       "O"
+    end
   end
   
-  def won?
-    
-  end
+
 end
 
 
